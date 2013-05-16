@@ -520,7 +520,7 @@ sub build {
         },
         {
             title => 'Flow',
-            options => [qw(bridge_flow_ratio)],
+            options => [qw(bridge_flow_ratio bridge_fill_extra_gap)],
         },
         {
             title => 'Other',

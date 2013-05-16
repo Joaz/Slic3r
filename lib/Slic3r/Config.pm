@@ -477,6 +477,13 @@ our $Options = {
         type    => 'f',
         default => 1,
     },
+    'bridge_fill_extra_gap' => {
+        label   => 'Bridge fill extra gap',
+        tooltip => 'This factor modifies the gap between bridge fill lines. Increase the value if the bridge gets dragged by the nozzle while the next line gets printed. Units in mm',
+        cli     => 'bridge-fill-extra-gap=f',
+        type    => 'f',
+        default => 0.1,
+    },
     'vibration_limit' => {
         label   => 'Vibration limit',
         tooltip => 'This experimental option will slow down those moves hitting the configured frequency limit. The purpose of limiting vibrations is to avoid mechanical resonance. Set zero to disable.',
